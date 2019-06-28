@@ -2,8 +2,9 @@
   "name": "fcm-ng",
   "version": "1.0.0",
   "description": "Ionic wrapper for cordova-plugin-fcm-ng (includes Google Analytics)",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,6 @@
   },
   "Devdependencies": {
     "tslint": "5.8.0"
-  }
+  },
+  "typings": "index.d.ts"
 }

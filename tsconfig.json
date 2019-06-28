@@ -7,15 +7,18 @@
     "noImplicitAny": true,
     "module": "es2015",
     "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": ".",
     "target": "es5",
     "skipLibCheck": true,
     "lib": ["es2017", "dom"],
     "inlineSources": true,
     "inlineSourceMap": true
   },
+  "exclude": [
+    "./*.js"
+  ],
   "include": [
-    "*.ts"
+    "src/*.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "aot"
