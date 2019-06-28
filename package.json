@@ -1,0 +1,29 @@
+{
+  "name": "fcm-ng",
+  "version": "1.0.0",
+  "description": "Ionic wrapper for cordova-plugin-fcm-ng (includes Google Analytics)",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmgustavo/fcm-ng.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Cortez <cmgustavo83@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmgustavo/fcm-ng/issues"
+  },
+  "homepage": "https://github.com/cmgustavo/fcm-ng#readme",
+  "dependencies": {
+    "@angular/core": "5.2.10",
+    "@ionic-native/core": "4.14.0",
+    "rxjs": "5.5.12",
+    "zone.js": "0.8.26"
+  },
+  "Devdependencies": {
+    "tslint": "5.8.0"
+  }
+}
