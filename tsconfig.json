@@ -1,26 +1,19 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "stripInternal": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "noImplicitAny": true,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "outDir": ".",
+    "module": "commonjs",
+    "outDir": "dist",
     "target": "es5",
-    "skipLibCheck": true,
-    "lib": ["es2017", "dom"],
-    "inlineSources": true,
-    "inlineSourceMap": true
+    "lib": ["es2015", "dom"],
+    "sourceMap": true,
+    "declaration": true
   },
   "exclude": [
-    "./*.js"
+    "dist/*",
+    "node_modules"
   ],
   "include": [
-    "src/*.ts"
-  ],
-  "angularCompilerOptions": {
-    "genDir": "aot"
-  }
+    "src/index.ts"
+  ]
 }

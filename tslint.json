@@ -1,9 +1,13 @@
 {
-  "defaultSeverity": "error",
   "extends": [
     "tslint:recommended"
   ],
-  "jsRules": {},
-  "rules": {},
-  "rulesDirectory": []
+  "rules": {
+    "no-submodule-imports": [
+      true,
+      "zone.js",
+      "rxjs",
+      "@angular"
+    ]
+  }
 }
