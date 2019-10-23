@@ -147,6 +147,16 @@ export class FCMNG extends IonicNativePlugin {
   }
 
   /**
+   * Clear all notifications
+   *
+   * @returns {Promise<string>} Returns a Promise empty or error
+   */
+  @Cordova()
+  clearAllNotifications(): Promise<any> {
+    return;
+  }
+
+  /**
    * Watch for incoming notifications
    *
    * @returns {Observable<any>} returns an object with data from the notification
