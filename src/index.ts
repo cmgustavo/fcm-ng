@@ -159,18 +159,6 @@ export class FCMNG extends IonicNativePlugin {
   }
 
   /**
-   * Set Current Screen Name [setCurrentScreen] (https://firebase.google.com/docs/analytics/screenviews)
-   *
-   * @param {string} screenName Name of the current screen
-   *
-   * @returns {Promise<any>} Returns a promise if event has been sent successfully
-   */
-  @Cordova()
-  setCurrentScreen(screenName: string): Promise<any> {
-    return;
-  }
-
-  /**
    * Clear all notifications
    *
    * @returns {Promise<string>} Returns a Promise empty or error
