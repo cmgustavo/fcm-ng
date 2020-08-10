@@ -157,6 +157,26 @@ export class FCMNG extends IonicNativePlugin {
   }
 
   /**
+   * On Dynamic Link
+   *
+   * @returns {Promise<string>} Returns a Promise empty or error
+   */
+  @Cordova()
+  onDynamicLink(): Promise<any> {
+    return;
+  }
+
+  /**
+   * Create Dynamic Link
+   *
+   * @returns {Promise<string>} Returns a Promise empty or error
+   */
+  @Cordova()
+  createDynamicLink(params: any): Promise<any> {
+    return;
+  }
+
+  /**
    * Watch for incoming notifications
    *
    * @returns {Observable<any>} returns an object with data from the notification
