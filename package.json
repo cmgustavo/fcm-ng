@@ -1,6 +1,6 @@
 {
   "name": "fcm-ng",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Ionic wrapper for cordova-plugin-fcm-ng (includes Google Analytics)",
   "main": "dist/index.js",
   "scripts": {

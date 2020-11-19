@@ -177,6 +177,20 @@ export class FCMNG extends IonicNativePlugin {
   }
 
   /**
+   * Get dynamic link
+   *
+   * @returns {Observable<any>} returns an object with data from the notification
+   */
+  @Cordova({
+    observable: true,
+    successIndex: 0,
+    errorIndex: 2
+  })
+  getDynamicLink(): Observable<NotificationData> {
+    return;
+  }
+
+  /**
    * Watch for incoming notifications
    *
    * @returns {Observable<any>} returns an object with data from the notification
